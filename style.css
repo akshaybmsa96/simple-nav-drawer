@@ -1,0 +1,48 @@
+.drawer-menu {
+  position: absolute;
+  height: 100%;
+  width: 0;
+  left: 0;
+  display: flex;
+  background-color: black;
+  color: white;
+  flex-direction: column;
+  transition: 0.2s;
+  top: 0;
+}
+
+.open {
+  width: 200px;
+}
+
+.open div {
+  display: block;
+  flex-wrap: nowrap;
+}
+
+#open-button {
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  margin: 10px;
+}
+
+.drawer-menu div {
+  margin: 10px;
+  padding: 10px;
+}
+
+.drawer-menu span {
+  margin: 10px;
+  padding: 10px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
